@@ -5,6 +5,7 @@ setup(
     version='1.0',
     description='A useful module',
     author='Kai Jaffarove',
-    packages=find_packages(), # Automatically discovers packages
+    package_dir={"": "src"},
+    packages=find_packages(where="src"), # Automatically discovers packages
     python_requires='>=3.6',
 )
