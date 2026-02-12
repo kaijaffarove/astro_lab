@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: astrolab_functions
+Version: 1.0
+Summary: A useful module
+Author: Kai Jaffarove
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary
